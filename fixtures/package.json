@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "start": "node ./src/dbgs-proxy/index.js",
+        "install": "npm install ./src/dbgs-proxy"
+    },
+    "dependencies": {
+        "dbgs-proxy": "file:src/dbgs-proxy"
+    }
+}
