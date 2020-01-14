@@ -13,8 +13,8 @@
 
 Процедура СкопироватьФайлы()
 
-	КопироватьФайл("fixtures/package.json", "package.json");
-	КопироватьФайл("fixtures/1coverage.json", "1coverage.json");
+	КопироватьФайл("package.json", "package.json");
+	КопироватьФайл("1coverage.json", "1coverage.json");
 
 КонецПроцедуры
 
