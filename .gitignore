@@ -1,4 +1,5 @@
-.vscode
+.vscode/
 bdd-log.xml
 tests.xml
-node_modules
+node_modules/
+build/
