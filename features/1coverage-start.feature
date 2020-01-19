@@ -6,23 +6,24 @@
     Чтобы гарантировать корректность работы приложения
 
 Контекст: Работа в каталоге проекта
-    Допустим я установил каталог "./" как текущий
+    Допустим я установил каталог проекта "." как текущий
 
 Сценарий: Запуск приложения с командой start без параметров
-    Когда Я выполняю команду "oscript ./src/1coverage/1coverage.os start"
+    Когда Я выполняю команду "oscript" с параметрами "<КаталогПроекта>/src/1coverage/1coverage.os start"
     И код возврата равен 0
 
 Сценарий: Запуск приложения с командой start для существующей файловой базы
     Когда Я выполняю команду "runner init-dev"
-    И Я выполняю команду "oscript ./src/1coverage/1coverage.os init --ib-connection /F./build/ib"
-    И Я выполняю команду "oscript ./src/1coverage/1coverage.os start --ib-connection /F./build/ib"
-    Тогда Вывод команды "oscript ./src/1coverage/1coverage.os start --ib-connection /F./build/ib" содержит
+    И Я выполняю команду "oscript" с параметрами "<КаталогПроекта>/src/1coverage/1coverage.os init --ib-connection /F./build/ib"
+    И Я очищаю параметры команды "oscript" в контексте
+    И Я выполняю команду "oscript" с параметрами "<КаталогПроекта>/src/1coverage/1coverage.os start --ib-connection /F./build/ib"
+    Тогда Вывод команды "oscript" содержит
     """
     Запущен сервер отладки
     Запущен прокси
     Открыт конфигуратор
     """
-    И файл "build/PID" существует
+    И файл "./build/PID" существует
     И запущен процесс с PID который указан в строке "1" файла "./build/PID"
     # И запущен процесс с PID который указан в строке "2" файла "./build/PID"
     # И запущен процесс с PID который указан в строке "3" файла "./build/PID"
