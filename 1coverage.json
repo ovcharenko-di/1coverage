@@ -5,7 +5,7 @@
         "tempdir": "./build",
         "verbose": "Истина",
 
-        "ib-connection": "/F./build/ib",
+        "ibconnection": "/F./build/ib",
         "proxy-host": "localhost",
         "proxy-port": "3000",
         "dbgs-host": "localhost",
@@ -19,7 +19,7 @@
     },
 
     "init": {
-        "ib-connection": "/F./build/ib",
+        "ibconnection": "/F./build/ib",
         "proxy-host": "localhost",
         "proxy-port": "3000"
     },
@@ -30,7 +30,7 @@
         "proxy-host": "localhost",
         "proxy-port": "3000",
         "proxy-log": "dbgs.log",
-        "ib-connection": "/F./build/ib",
+        "ibconnection": "/F./build/ib",
         "ib-user": "",
         "ib-pwd": ""
     },
