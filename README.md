@@ -34,9 +34,9 @@ dbgs-proxy работает между сервером отладки и тес
 ### Использование
 
 - `1coverage init`
-- `1coverage start` (TODO)
-- `1coverage stop` (TODO)
-- `1coverage conver` (TODO)
+- `1coverage start`
+- `1coverage stop`
+- `1coverage convert` (TODO)
 
 ### Запуск тестов
 
