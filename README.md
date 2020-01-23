@@ -4,7 +4,7 @@
 
 ### Состав приложения
 
-- dbgs-proxy - логирующий реверс-прокси для 1С на node.js
+- dbgs-proxy - логирующий реверс-прокси для 1С на Node.js
 - 1coverage - приложение, которое управляет сбором замеров производительности и конвертирует их в формат [genericCoverage](https://docs.sonarqube.org/latest/analysis/generic-test/) или lcov
 
 ### Принцип работы
