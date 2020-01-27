@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f304fb62-52f8-44bc-acdb-d0bfd45a4028">
+  <producedTypes>
+    <selectionType typeId="9321f91d-bd0b-4fbd-89e9-cb25cdff1cc7" valueTypeId="07572288-0d25-4733-b609-b9cd1aa32f54"/>
+    <listType typeId="af8628f4-05aa-490f-99a8-047ab6119aa0" valueTypeId="64838a5a-75af-4247-92bd-a724fb0d9d11"/>
+    <managerType typeId="b599964a-1280-4716-8410-6320028a8099" valueTypeId="c629d24d-4efb-4987-a5a2-ffd18f748ec0"/>
+    <recordSetType typeId="30efb77a-613e-48d5-aa39-2ee79106aa96" valueTypeId="ec935e5c-89ea-48d8-a302-cbea5125b677"/>
+    <recordKeyType typeId="6b6ac9d8-e606-47c2-9fdb-d166d17c4fee" valueTypeId="1af735fe-7e70-411d-8953-249da7f6c21e"/>
+    <recordType typeId="5a146500-ce8c-46cd-93ff-22cbd5a5d003" valueTypeId="dd7d5044-1e30-4fd0-a9ee-ef65ea6dcbc8"/>
+  </producedTypes>
+  <name>РегистрНакопления1</name>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="7a8d2596-b437-4040-8593-7039baea1b82">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="a2c7d840-8daa-4c3a-8d44-d87e5956d340">
+    <name>Измерение1</name>
+    <type>
+      <types>CatalogRef.Справочник1</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

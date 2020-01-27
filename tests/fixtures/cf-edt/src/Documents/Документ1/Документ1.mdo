@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb84ce0e-e9ed-4113-9ba7-c000e6372cf0">
+  <producedTypes>
+    <objectType typeId="4ca53241-66e3-4eba-8923-24fd86a391bc" valueTypeId="3b3079c0-09cb-4436-b35f-8b7b6fc983f3"/>
+    <refType typeId="386aaead-46fc-46a8-aa1a-0427d1cb9459" valueTypeId="7a3eb0fb-3471-472e-a132-e264f6af744a"/>
+    <selectionType typeId="40300e09-479e-4567-85b4-7aac423ae693" valueTypeId="dcc929ac-3e0a-4c8a-87bf-e71a91cd448b"/>
+    <listType typeId="9efd4f15-73dc-419d-93e8-d30052128b71" valueTypeId="112b052b-c10a-4ab9-b9f6-def6fcf1f46c"/>
+    <managerType typeId="50c444e5-6d90-4410-a795-01adf6114554" valueTypeId="5bc9bd37-0289-4f94-ae00-73c5e4e3c609"/>
+  </producedTypes>
+  <name>Документ1</name>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Документ1.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Документ1.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.РегистрНакопления1</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b9e21bcc-b755-4a58-9415-3ae42e315a47">
+    <name>Справочник1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник1</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Справочник1</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="04132787-f61a-41c5-b2fc-949ba4f6c45a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="0ced8f12-2926-42b4-a600-dfe927251f51">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда1</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="864db1f0-53b5-4ecf-b266-6f4b4d966911">
+    <name>Команда2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда2</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Document>
