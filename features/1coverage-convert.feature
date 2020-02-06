@@ -29,10 +29,23 @@
     И Я сообщаю вывод команды "oscript"
     И Вывод команды "oscript" не содержит "КРИТИЧНАЯОШИБКА"
     И код возврата равен 0
-    И файл "build/GenericCoverage.json" существует
-    И файл "build/GenericCoverage.json" содержит
+    И файл "./build/GenericCoverage.json" существует
+    И файл "./build/GenericCoverage.json" содержит
     """
-    ЗАГЛУШКА
+    <coverage version="1">
+    <file path="tests\fixtures\cf-edt\Documents\Документ1\Commands\Команда1\CommandModule.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="tests\fixtures\cf-edt\Configuration\SessionModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="6" covered="true"/>
+    </file>
+    <file path="tests\fixtures\cf-edt\CommonCommands\ОбщаяКоманда1\CommandModule.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    </coverage>
     """
 
 Сценарий: Запуск приложения с командой convert, исходники XML, формат результата GenericCoverage
