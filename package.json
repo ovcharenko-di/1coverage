@@ -4,6 +4,10 @@
         "install": "npm install ./src/dbgs-proxy"
     },
     "dependencies": {
-        "dbgs-proxy": "file:src/dbgs-proxy"
+        "dateformat": "^3.0.3",
+        "dbgs-proxy": "file:src/dbgs-proxy",
+        "intel": "^1.2.0",
+        "minimist": "^1.2.0",
+        "xml-js": "^1.6.11"
     }
 }
