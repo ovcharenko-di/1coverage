@@ -39,6 +39,16 @@
                 "on"
             ],
             "problemMatcher": []
+        },
+        {
+            "label": "Exec current test",
+            "type": "shell",
+            "args": [
+                "1testrunner",
+                "-run",
+                "${file}"
+            ],
+            "problemMatcher": []
         }
     ]
 }

@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\src\\dbgs-proxy\\index.js",
+            "args": ["--log-path", "./build/dbgs-proxy", "--debuggerURL", "http://localhost:1550", "--dbgs-proxy-port", "3000"]
+        },
+        {
+            "name": "1coverage convert",
+            "type": "oscript",
+            "request": "launch",
+            "program": "${workspaceRoot}/src/1coverage/1coverage.os",
+            "args": ["-v", "convert", "--log-path", ".//tests//fixtures//dbgs-log", "--src-path", ".//tests//fixtures//cf-edt", "--out", ".//build//gc.xml" , "--format", "GenericCoverage"],
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": null,
+            "debugPort": 2801,
+            "protocol": "internal"
+        },
+        {
+            "name": "1testrunner debug",
+            "type": "oscript",
+            "request": "launch",
+            "program": "C:/Program Files/OneScript/lib/1testrunner/main.os",
+            "args": ["-run", "${workspaceRoot}/tests/ОбработчикЛоговПрокси.os"],
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": null,
+            "debugPort": 2801,
+            "protocol": "internal"
+        }
+    ]
+}
