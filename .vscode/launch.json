@@ -15,6 +15,17 @@
             "args": ["--log-path", "./build/dbgs-proxy", "--debuggerURL", "http://localhost:1550", "--dbgs-proxy-port", "3000"]
         },
         {
+            "name": "1coverage init",
+            "type": "oscript",
+            "request": "launch",
+            "program": "${workspaceRoot}/src/1coverage/1coverage.os",
+            "args": ["-v", "init", "--ibconnection", "/FC:\\Users\\DOvcharenko\\build\\ib"],
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": null,
+            "debugPort": 2801,
+            "protocol": "internal"
+        },
+        {
             "name": "1coverage convert",
             "type": "oscript",
             "request": "launch",
