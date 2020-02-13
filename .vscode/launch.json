@@ -41,7 +41,7 @@
             "type": "oscript",
             "request": "launch",
             "program": "C:/Program Files/OneScript/lib/1testrunner/main.os",
-            "args": ["-run", "${workspaceRoot}/tests/ОбработчикЛоговПрокси.os"],
+            "args": ["-run", "${file}"],
             "cwd": "${workspaceRoot}",
             "runtimeExecutable": null,
             "debugPort": 2801,
