@@ -13,15 +13,19 @@
     И Я устанавливаю временный каталог как рабочий каталог
     И Я установил рабочий каталог как текущий каталог
     И Я выполняю команду "runner" с параметрами "init-dev --root <РабочийКаталог> --ibconnection /F./build/coverage-ib"
+    И Я сообщаю вывод команды "runner"
+    И код возврата равен 0
     И Я выполняю команду "oscript" с параметрами "./src/1coverage/1coverage.os init --ibconnection /F./build/coverage-ib"
     И Я очищаю параметры команды "oscript" в контексте
     И Я добавляю параметр "<КаталогПроекта>/src/1coverage/1coverage.os start" для команды "oscript"
+    И Я добавляю параметр "--v8version 8.3" для команды "oscript"
     И Я добавляю параметр "--ibconnection /F./build/coverage-ib" для команды "oscript"
     И Я добавляю параметр "--logpath ./build/dbgs-logs" для команды "oscript"
     И Я добавляю параметр "--dbgs-host localhost" для команды "oscript"
     И Я добавляю параметр "--dbgs-port 1550" для команды "oscript"
     И Я добавляю параметр "--dbgs-proxy-port 3000" для команды "oscript"
     И Я выполняю команду "oscript"
+    И Я сообщаю вывод команды "oscript"
     И код возврата равен 0
     И пауза 1
     И Я сообщаю вывод команды "oscript"

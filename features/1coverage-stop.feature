@@ -21,9 +21,10 @@
     И Я выполняю команду "oscript" с параметрами "./src/1coverage/1coverage.os init --ibconnection /F<РабочийКаталог>/build/1coverage-stop"
     И Я очищаю параметры команды "oscript" в контексте
     И Я установил рабочий каталог как текущий каталог
-    И Я выполняю команду "oscript" с параметрами "<КаталогПроекта>/src/1coverage/1coverage.os start --ibconnection /F./build/1coverage-stop"
+    И Я выполняю команду "oscript" с параметрами "<КаталогПроекта>/src/1coverage/1coverage.os start --v8version 8.3 --ibconnection /F./build/1coverage-stop"
     И Я очищаю параметры команды "oscript" в контексте
     И Я выполняю команду "oscript" с параметрами "<КаталогПроекта>/src/1coverage/1coverage.os stop"
+    И Я сообщаю вывод команды "oscript"
     И код возврата равен 0
     И завершен процесс с PID который указан в строке "1" файла "./build/PID"
     И завершен процесс с PID который указан в строке "2" файла "./build/PID"
