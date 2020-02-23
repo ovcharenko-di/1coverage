@@ -19,9 +19,10 @@
     И Я устанавливаю временный каталог как рабочий каталог
     И Я копирую каталог "dbgs-log" из каталога "tests/fixtures" проекта в подкаталог "build" рабочего каталога
     И Я копирую каталог "cf-edt" из каталога "tests/fixtures" проекта в рабочий каталог
+    И Я копирую файл "sonar-project.properties" из каталога "tests/fixtures/edt" проекта в рабочий каталог
     И Я установил рабочий каталог как текущий каталог
     И Я добавляю параметр "<КаталогПроекта>/src/1coverage/1coverage.os convert" для команды "oscript"
-    И Я добавляю параметр "--log-path .build/dbgs-log" для команды "oscript"
+    И Я добавляю параметр "--log-path ./build/dbgs-log" для команды "oscript"
     И Я добавляю параметр "--src-path ./cf-edt" для команды "oscript"
     И Я добавляю параметр "--out ./build/GenericCoverage.xml" для команды "oscript"
     И Я добавляю параметр "--format GenericCoverage" для команды "oscript"
@@ -32,7 +33,45 @@
     И файл "./build/GenericCoverage.xml" существует
     И файл "./build/GenericCoverage.xml" содержит xml
     """
-    <coverage version="1"/>
+    <coverage version="1">
+    <file path="./cf-edt/src/AccumulationRegisters/РегистрНакопления1/ManagerModule.bsl">
+        <lineToCover lineNumber="3" covered="true"/>
+        <lineToCover lineNumber="5" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/Documents/Документ1/Forms/ФормаДокумента/Module.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+        <lineToCover lineNumber="9" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/CommonCommands/ОбщаяКоманда1/CommandModule.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/Reports/Отчет1/Forms/ФормаОтчета/Module.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/Reports/Отчет1/ObjectModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+        <lineToCover lineNumber="1031" covered="true"/>
+        <lineToCover lineNumber="1033" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/Catalogs/Справочник1/Forms/ФормаЭлемента/Module.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+        <lineToCover lineNumber="9" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/Catalogs/Справочник1/ObjectModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="6" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/CommonModules/ОбщийМодуль1/Module.bsl">
+        <lineToCover lineNumber="3" covered="true"/>
+        <lineToCover lineNumber="5" covered="true"/>
+    </file>
+    </coverage>
     """
 
 Сценарий: Запуск приложения с командой convert, исходники XML, формат результата GenericCoverage
