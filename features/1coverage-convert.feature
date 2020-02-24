@@ -14,6 +14,68 @@
     И Я сообщаю вывод команды "oscript"
     И код возврата равен 1
 
+Сценарий: Запуск приложения с командой convert, исходники XML, формат результата GenericCoverage
+    Когда Я создаю временный каталог и сохраняю его в контекст
+    И Я устанавливаю временный каталог как рабочий каталог
+    И Я копирую каталог "dbgs-log" из каталога "tests/fixtures" проекта в подкаталог "build" рабочего каталога
+    И Я копирую каталог "cf-xml" из каталога "tests/fixtures" проекта в рабочий каталог
+    И Я копирую файл "sonar-project.properties" из каталога "tests/fixtures/xml" проекта в рабочий каталог
+    И Я установил рабочий каталог как текущий каталог
+    И Я добавляю параметр "<КаталогПроекта>/src/1coverage/1coverage.os convert" для команды "oscript"
+    И Я добавляю параметр "--log-path ./build/dbgs-log" для команды "oscript"
+    И Я добавляю параметр "--src-path ./cf-xml" для команды "oscript"
+    И Я добавляю параметр "--out ./build/GenericCoverage.xml" для команды "oscript"
+    И Я добавляю параметр "--format GenericCoverage" для команды "oscript"
+    И Я выполняю команду "oscript"
+    И Я сообщаю вывод команды "oscript"
+    И Вывод команды "oscript" не содержит "КРИТИЧНАЯОШИБКА"
+    И код возврата равен 0
+    И файл "./build/GenericCoverage.xml" существует
+    И файл "./build/GenericCoverage.xml" содержит xml
+    """
+    <coverage version="1">
+    <file path="./cf-xml/AccumulationRegisters/РегистрНакопления1/Ext/ManagerModule.bsl">
+        <lineToCover lineNumber="3" covered="true"/>
+        <lineToCover lineNumber="5" covered="true"/>
+    </file>
+    <file path="./cf-xml/Documents/Документ1/Forms/ФормаДокумента/Ext/Form/Module.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+        <lineToCover lineNumber="9" covered="true"/>
+    </file>
+    <file path="./cf-xml/CommonCommands/ОбщаяКоманда1/Ext/CommandModule.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="./cf-xml/Reports/Отчет1/Forms/ФормаОтчета/Ext/Form/Module.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="./cf-xml/Reports/Отчет1/Ext/ManagerModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="./cf-xml/Reports/Отчет1/Ext/ObjectModule.bsl">
+        <lineToCover lineNumber="1031" covered="true"/>
+        <lineToCover lineNumber="1033" covered="true"/>
+    </file>
+    <file path="./cf-xml/Catalogs/Справочник1/Forms/ФормаЭлемента/Ext/Form/Module.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+        <lineToCover lineNumber="9" covered="true"/>
+    </file>
+    <file path="./cf-xml/Catalogs/Справочник1/Ext/ObjectModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="6" covered="true"/>
+    </file>
+    <file path="./cf-xml/CommonModules/ОбщийМодуль1/Ext/Module.bsl">
+        <lineToCover lineNumber="3" covered="true"/>
+        <lineToCover lineNumber="5" covered="true"/>
+    </file>
+    </coverage>
+        """
+
 Сценарий: Запуск приложения с командой convert, исходники EDT, формат результата GenericCoverage
     Когда Я создаю временный каталог и сохраняю его в контекст
     И Я устанавливаю временный каталог как рабочий каталог
@@ -51,10 +113,12 @@
         <lineToCover lineNumber="5" covered="true"/>
         <lineToCover lineNumber="7" covered="true"/>
     </file>
-    <file path="./cf-edt/src/Reports/Отчет1/ObjectModule.bsl">
+    <file path="./cf-edt/src/Reports/Отчет1/ManagerModule.bsl">
         <lineToCover lineNumber="4" covered="true"/>
         <lineToCover lineNumber="5" covered="true"/>
         <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/Reports/Отчет1/ObjectModule.bsl">
         <lineToCover lineNumber="1031" covered="true"/>
         <lineToCover lineNumber="1033" covered="true"/>
     </file>
@@ -73,8 +137,6 @@
     </file>
     </coverage>
     """
-
-Сценарий: Запуск приложения с командой convert, исходники XML, формат результата GenericCoverage
 
 Сценарий: Запуск приложения с командой convert, исходники EDT, формат результата lcov
 
