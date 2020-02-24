@@ -20,7 +20,7 @@
                 "C:/repo/1bdd/src/bdd.os",
                 "exec",
                 "${file}",
-                "-fail-fast",
+                // "-fail-fast",
                 "-debug",
                 "off"
             ],
@@ -34,7 +34,7 @@
                 "C:/repo/1bdd/src/bdd.os",
                 "exec",
                 "${file}",
-                "-fail-fast",
+                // "-fail-fast",
                 "-debug",
                 "on"
             ],
