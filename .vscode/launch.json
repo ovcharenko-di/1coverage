@@ -26,6 +26,17 @@
             "protocol": "internal"
         },
         {
+            "name": "1coverage start",
+            "type": "oscript",
+            "request": "launch",
+            "program": "${workspaceRoot}/src/1coverage/1coverage.os",
+            "args": ["-v", "start", "--v8version", "8.3", "--ibconnection", "/Fbuild\\ib", "--logpath", "build\\dbgs-logs", "--dbgs-host", "localhost", "--dbgs-port", "1550", "--dbgs-proxy-port", "3000"],
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": null,
+            "debugPort": 2801,
+            "protocol": "internal"
+        },
+        {
             "name": "1coverage convert",
             "type": "oscript",
             "request": "launch",
