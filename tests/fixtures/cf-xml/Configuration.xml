@@ -133,6 +133,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Language>Английский</Language>
 			<CommonModule>ОбщийМодуль1</CommonModule>
 			<WebService>WebСервис1</WebService>
 			<HTTPService>HTTPСервис1</HTTPService>

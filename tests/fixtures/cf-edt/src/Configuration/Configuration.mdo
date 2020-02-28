@@ -25,6 +25,14 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <languages uuid="a229cba4-151e-4a88-a584-dc1867be55be">
+    <name>Английский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Английский</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
   <commonModules>CommonModule.ОбщийМодуль1</commonModules>
   <webServices>WebService.WebСервис1</webServices>
   <httpServices>HTTPService.HTTPСервис1</httpServices>

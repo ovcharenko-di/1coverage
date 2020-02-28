@@ -8,6 +8,14 @@
     <managerType typeId="a84054de-4d18-403e-8cba-1200b9bf6a4b" valueTypeId="6196f25c-97b8-4bf7-a310-b9cf621cc728"/>
   </producedTypes>
   <name>Справочник1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник1</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Catalog1</value>
+  </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Справочник1.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Справочник1.StandardAttribute.Code</inputByString>

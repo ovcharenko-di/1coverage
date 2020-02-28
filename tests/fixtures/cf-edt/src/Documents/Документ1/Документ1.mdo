@@ -8,6 +8,14 @@
     <managerType typeId="50c444e5-6d90-4410-a795-01adf6114554" valueTypeId="5bc9bd37-0289-4f94-ae00-73c5e4e3c609"/>
   </producedTypes>
   <name>Документ1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ1</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Document1</value>
+  </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.Документ1.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -53,6 +61,10 @@
       <key>ru</key>
       <value>Команда1</value>
     </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Command1</value>
+    </synonym>
     <group>NavigationPanelImportant</group>
     <commandParameterType/>
     <representation>Auto</representation>
@@ -63,6 +75,10 @@
     <synonym>
       <key>ru</key>
       <value>Команда2</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Command2</value>
     </synonym>
     <group>NavigationPanelImportant</group>
     <commandParameterType/>
