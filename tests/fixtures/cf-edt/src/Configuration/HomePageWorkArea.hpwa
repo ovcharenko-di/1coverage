@@ -10,5 +10,13 @@
       </visibility>
     </items>
   </columns>
-  <columns/>
+  <columns>
+    <items>
+      <form>CommonForm.Форма1</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
+  </columns>
 </hpwa:HomePageWorkArea>

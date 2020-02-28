@@ -139,6 +139,7 @@
 			<HTTPService>HTTPСервис1</HTTPService>
 			<CommonCommand>ОбщаяКоманда1</CommonCommand>
 			<CommonForm>Форма</CommonForm>
+			<CommonForm>Форма1</CommonForm>
 			<Catalog>Справочник1</Catalog>
 			<Document>Документ1</Document>
 			<DocumentJournal>ЖурналДокументов1</DocumentJournal>

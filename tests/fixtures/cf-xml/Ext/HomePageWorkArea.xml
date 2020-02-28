@@ -10,5 +10,13 @@
 			</Visibility>
 		</Item>
 	</LeftColumn>
-	<RightColumn/>
+	<RightColumn>
+		<Item>
+			<Form>CommonForm.Форма1</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Item>
+	</RightColumn>
 </HomePageWorkArea>

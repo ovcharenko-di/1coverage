@@ -38,6 +38,7 @@
   <httpServices>HTTPService.HTTPСервис1</httpServices>
   <commonCommands>CommonCommand.ОбщаяКоманда1</commonCommands>
   <commonForms>CommonForm.Форма</commonForms>
+  <commonForms>CommonForm.Форма1</commonForms>
   <catalogs>Catalog.Справочник1</catalogs>
   <documents>Document.Документ1</documents>
   <documentJournals>DocumentJournal.ЖурналДокументов1</documentJournals>

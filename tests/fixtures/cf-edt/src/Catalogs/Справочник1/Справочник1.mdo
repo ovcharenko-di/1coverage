@@ -41,7 +41,18 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ElementForm</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="7b8f569a-ce13-4061-b8cd-09502fd9c795">
+    <name>Команда1</name>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
 </mdclass:Catalog>

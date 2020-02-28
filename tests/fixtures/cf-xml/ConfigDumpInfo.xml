@@ -7,19 +7,24 @@
 		</Metadata>
 		<Metadata name="AccumulationRegister.РегистрНакопления1.ManagerModule" id="f304fb62-52f8-44bc-acdb-d0bfd45a4028.2" configVersion="86a331089d03124da0ff4fa68c92ba9b00000000"/>
 		<Metadata name="AccumulationRegister.РегистрНакопления1.RecordSetModule" id="f304fb62-52f8-44bc-acdb-d0bfd45a4028.1" configVersion="b9cebaacfdfcec4eb1976c5625adbb4000000000"/>
-		<Metadata name="Catalog.Справочник1" id="8579e6d0-6ef5-4b64-8b17-7f666004b239" configVersion="126a41ab2abd1841bd8b8bde0a3faeb400000000"/>
-		<Metadata name="Catalog.Справочник1.Form.ФормаЭлемента" id="4fcb6ccc-1fc4-44b0-89de-e91fd6840511" configVersion="a0bed12bf0dc644f939da7754c312fb700000000"/>
-		<Metadata name="Catalog.Справочник1.Form.ФормаЭлемента.Form" id="4fcb6ccc-1fc4-44b0-89de-e91fd6840511.0" configVersion="11436cd1964851419cc8cbcff19b546d00000000"/>
+		<Metadata name="Catalog.Справочник1" id="8579e6d0-6ef5-4b64-8b17-7f666004b239" configVersion="e2471bb4bae4c245b8543a6dadd293d300000000">
+			<Metadata name="Catalog.Справочник1.Command.Команда1" id="7b8f569a-ce13-4061-b8cd-09502fd9c795"/>
+		</Metadata>
+		<Metadata name="Catalog.Справочник1.Command.Команда1.CommandModule" id="7b8f569a-ce13-4061-b8cd-09502fd9c795.2" configVersion="96085c80814c2948af4286fb9b0c07bc00000000"/>
+		<Metadata name="Catalog.Справочник1.Form.ФормаЭлемента" id="4fcb6ccc-1fc4-44b0-89de-e91fd6840511" configVersion="ea2c381de434024489ae7211253b924700000000"/>
+		<Metadata name="Catalog.Справочник1.Form.ФормаЭлемента.Form" id="4fcb6ccc-1fc4-44b0-89de-e91fd6840511.0" configVersion="93dc6b0d3b023748b3b460231ad23d3e00000000"/>
 		<Metadata name="Catalog.Справочник1.ObjectModule" id="8579e6d0-6ef5-4b64-8b17-7f666004b239.0" configVersion="82fa429e664b6145ba206bb761d1739200000000"/>
 		<Metadata name="CommonCommand.ОбщаяКоманда1" id="07872757-43e2-4b3f-8a6a-2bf4b4e05462" configVersion="a73ba0ae2b862249b7ff0908fd333c0b00000000"/>
 		<Metadata name="CommonCommand.ОбщаяКоманда1.CommandModule" id="07872757-43e2-4b3f-8a6a-2bf4b4e05462.2" configVersion="1979476ab6f7184bb5b95000857c62ea00000000"/>
 		<Metadata name="CommonForm.Форма" id="97933dac-5eb4-4418-b16e-194de8522421" configVersion="766affa5bd7c7640adcc9c84b10850da00000000"/>
 		<Metadata name="CommonForm.Форма.Form" id="97933dac-5eb4-4418-b16e-194de8522421.0" configVersion="516ed3410007094e8fa8d3bef9039dfa00000000"/>
+		<Metadata name="CommonForm.Форма1" id="0ec0ed7b-e123-43fc-9b46-a85fecff2a35" configVersion="f93fcb4b6ffc2e42860d7e1eefac34b700000000"/>
+		<Metadata name="CommonForm.Форма1.Form" id="0ec0ed7b-e123-43fc-9b46-a85fecff2a35.0" configVersion="5688f57fbf125b42b3a2ac03d3d5883400000000"/>
 		<Metadata name="CommonModule.ОбщийМодуль1" id="1e2790f1-29a8-4f99-ae2d-625a683ec086" configVersion="caf2d49fccabc7448aea8ead47c7e5a100000000"/>
 		<Metadata name="CommonModule.ОбщийМодуль1.Module" id="1e2790f1-29a8-4f99-ae2d-625a683ec086.0" configVersion="812c5d0b2a4c6e4aae2c7b1c6a4d4e0000000000"/>
-		<Metadata name="Configuration.Конфигурация" id="58183e39-a47c-4a13-a9f7-f6c960773072" configVersion="168efad335b90e4eaa8ffa29c7c9be1b00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="58183e39-a47c-4a13-a9f7-f6c960773072" configVersion="4ba78b60370261458db83026d2d5787f00000000"/>
 		<Metadata name="Configuration.Конфигурация.ExternalConnectionModule" id="ff510fbf-afab-4384-b751-c38ac2148ad5.5" configVersion="e3dc5573a079924c9958773a11b33da500000000"/>
-		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="ff510fbf-afab-4384-b751-c38ac2148ad5.8" configVersion="49ea8a68681cb14187f743dc530ab51f00000000"/>
+		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="ff510fbf-afab-4384-b751-c38ac2148ad5.8" configVersion="078b95f7125d8c459f119558a6e2479e00000000"/>
 		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="ff510fbf-afab-4384-b751-c38ac2148ad5.6" configVersion="f543a6ab7febd148b7958fb1c958d84a00000000"/>
 		<Metadata name="Configuration.Конфигурация.SessionModule" id="ff510fbf-afab-4384-b751-c38ac2148ad5.7" configVersion="a8b43fb431859e49a185108f525ec53a00000000"/>
 		<Metadata name="Document.Документ1" id="fb84ce0e-e9ed-4113-9ba7-c000e6372cf0" configVersion="72e240f914ff694c8af754f65181b01700000000">
