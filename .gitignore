@@ -1,5 +1,5 @@
-bdd-log.xml
-tests.xml
-node_modules/
-build/
+/bdd-log.xml
+/tests.xml
+/node_modules/
+/build/
 .scannerwork/
