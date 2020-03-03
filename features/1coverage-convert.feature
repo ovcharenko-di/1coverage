@@ -73,6 +73,48 @@
         <lineToCover lineNumber="3" covered="true"/>
         <lineToCover lineNumber="5" covered="true"/>
     </file>
+    <file path="./cf-xml/Documents/Документ1/Commands/Команда1/Ext/CommandModule.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="./cf-xml/Ext/ManagedApplicationModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="6" covered="true"/>
+    </file>
+    <file path="./cf-xml/Catalogs/Справочник1/Commands/Команда1/Ext/CommandModule.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="./cf-xml/Documents/Документ1/Commands/Команда2/Ext/CommandModule.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="./cf-xml/Documents/Документ1/Ext/ObjectModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="6" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+        <lineToCover lineNumber="8" covered="true"/>
+        <lineToCover lineNumber="9" covered="true"/>
+        <lineToCover lineNumber="11" covered="true"/>
+    </file>
+    <file path="./cf-xml/Ext/SessionModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="6" covered="true"/>
+    </file>
+    <file path="./cf-xml/AccumulationRegisters/РегистрНакопления1/Ext/RecordSetModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="6" covered="true"/>
+    </file>
+    <file path="./cf-xml/DocumentJournals/ЖурналДокументов1/Ext/ManagerModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="./cf-xml/CommonForms/Форма/Ext/Form/Module.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="6" covered="true"/>
+    </file>
     </coverage>
         """
 
@@ -134,6 +176,48 @@
     <file path="./cf-edt/src/CommonModules/ОбщийМодуль1/Module.bsl">
         <lineToCover lineNumber="3" covered="true"/>
         <lineToCover lineNumber="5" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/Documents/Документ1/Commands/Команда1/CommandModule.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/Configuration/ManagedApplicationModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="6" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/Catalogs/Справочник1/Commands/Команда1/CommandModule.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/Documents/Документ1/Commands/Команда2/CommandModule.bsl">
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/Documents/Документ1/ObjectModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="6" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+        <lineToCover lineNumber="8" covered="true"/>
+        <lineToCover lineNumber="9" covered="true"/>
+        <lineToCover lineNumber="11" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/Configuration/SessionModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="6" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/AccumulationRegisters/РегистрНакопления1/RecordSetModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="6" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/DocumentJournals/ЖурналДокументов1/ManagerModule.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="5" covered="true"/>
+        <lineToCover lineNumber="7" covered="true"/>
+    </file>
+    <file path="./cf-edt/src/CommonForms/Форма/Module.bsl">
+        <lineToCover lineNumber="4" covered="true"/>
+        <lineToCover lineNumber="6" covered="true"/>
     </file>
     </coverage>
     """

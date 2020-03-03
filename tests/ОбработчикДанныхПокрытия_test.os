@@ -95,6 +95,15 @@
 	|4fcb6ccc-1fc4-44b0-89de-e91fd6840511|./tests/fixtures/cf-xml/Catalogs/Справочник1/Forms/ФормаЭлемента/Ext/Form/Module.bsl|
 	|8579e6d0-6ef5-4b64-8b17-7f666004b239|./tests/fixtures/cf-xml/Catalogs/Справочник1/Ext/ObjectModule.bsl|
 	|1e2790f1-29a8-4f99-ae2d-625a683ec086|./tests/fixtures/cf-xml/CommonModules/ОбщийМодуль1/Ext/Module.bsl|
+	|0ced8f12-2926-42b4-a600-dfe927251f51|./tests/fixtures/cf-xml/Documents/Документ1/Commands/Команда1/Ext/CommandModule.bsl|
+	|58183e39-a47c-4a13-a9f7-f6c960773072|./tests/fixtures/cf-xml/Ext/ManagedApplicationModule.bsl|
+	|7b8f569a-ce13-4061-b8cd-09502fd9c795|./tests/fixtures/cf-xml/Catalogs/Справочник1/Commands/Команда1/Ext/CommandModule.bsl|
+	|864db1f0-53b5-4ecf-b266-6f4b4d966911|./tests/fixtures/cf-xml/Documents/Документ1/Commands/Команда2/Ext/CommandModule.bsl|
+	|fb84ce0e-e9ed-4113-9ba7-c000e6372cf0|./tests/fixtures/cf-xml/Documents/Документ1/Ext/ObjectModule.bsl|
+	|58183e39-a47c-4a13-a9f7-f6c960773072|./tests/fixtures/cf-xml/Ext/SessionModule.bsl|
+	|f304fb62-52f8-44bc-acdb-d0bfd45a4028|./tests/fixtures/cf-xml/AccumulationRegisters/РегистрНакопления1/Ext/RecordSetModule.bsl|
+	|de16499a-16ac-43e9-a018-97f2cc0c76e2|./tests/fixtures/cf-xml/DocumentJournals/ЖурналДокументов1/Ext/ManagerModule.bsl|
+	|97933dac-5eb4-4418-b16e-194de8522421|./tests/fixtures/cf-xml/CommonForms/Форма/Ext/Form/Module.bsl|
 	|";
 
 КонецФункции
@@ -110,6 +119,15 @@
 	|4fcb6ccc-1fc4-44b0-89de-e91fd6840511|./tests/fixtures/cf-edt/src/Catalogs/Справочник1/Forms/ФормаЭлемента/Module.bsl|
 	|8579e6d0-6ef5-4b64-8b17-7f666004b239|./tests/fixtures/cf-edt/src/Catalogs/Справочник1/ObjectModule.bsl|
 	|1e2790f1-29a8-4f99-ae2d-625a683ec086|./tests/fixtures/cf-edt/src/CommonModules/ОбщийМодуль1/Module.bsl|
+	|0ced8f12-2926-42b4-a600-dfe927251f51|./tests/fixtures/cf-edt/src/Documents/Документ1/Commands/Команда1/CommandModule.bsl|
+	|58183e39-a47c-4a13-a9f7-f6c960773072|./tests/fixtures/cf-edt/src/Configuration/ManagedApplicationModule.bsl|
+	|7b8f569a-ce13-4061-b8cd-09502fd9c795|./tests/fixtures/cf-edt/src/Catalogs/Справочник1/Commands/Команда1/CommandModule.bsl|
+	|864db1f0-53b5-4ecf-b266-6f4b4d966911|./tests/fixtures/cf-edt/src/Documents/Документ1/Commands/Команда2/CommandModule.bsl|
+	|fb84ce0e-e9ed-4113-9ba7-c000e6372cf0|./tests/fixtures/cf-edt/src/Documents/Документ1/ObjectModule.bsl|
+	|58183e39-a47c-4a13-a9f7-f6c960773072|./tests/fixtures/cf-edt/src/Configuration/SessionModule.bsl|
+	|f304fb62-52f8-44bc-acdb-d0bfd45a4028|./tests/fixtures/cf-edt/src/AccumulationRegisters/РегистрНакопления1/RecordSetModule.bsl|
+	|de16499a-16ac-43e9-a018-97f2cc0c76e2|./tests/fixtures/cf-edt/src/DocumentJournals/ЖурналДокументов1/ManagerModule.bsl|
+	|97933dac-5eb4-4418-b16e-194de8522421|./tests/fixtures/cf-edt/src/CommonForms/Форма/Module.bsl|
 	|";
 
 КонецФункции
