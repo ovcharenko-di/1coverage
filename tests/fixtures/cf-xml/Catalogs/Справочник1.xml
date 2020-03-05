@@ -93,7 +93,16 @@
 			<Command uuid="7b8f569a-ce13-4061-b8cd-09502fd9c795">
 				<Properties>
 					<Name>Команда1</Name>
-					<Synonym/>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команда1</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Command1</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
 					<Group>NavigationPanelImportant</Group>
 					<CommandParameterType/>

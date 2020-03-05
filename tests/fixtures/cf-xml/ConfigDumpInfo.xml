@@ -7,7 +7,7 @@
 		</Metadata>
 		<Metadata name="AccumulationRegister.РегистрНакопления1.ManagerModule" id="f304fb62-52f8-44bc-acdb-d0bfd45a4028.2" configVersion="86a331089d03124da0ff4fa68c92ba9b00000000"/>
 		<Metadata name="AccumulationRegister.РегистрНакопления1.RecordSetModule" id="f304fb62-52f8-44bc-acdb-d0bfd45a4028.1" configVersion="b9cebaacfdfcec4eb1976c5625adbb4000000000"/>
-		<Metadata name="Catalog.Справочник1" id="8579e6d0-6ef5-4b64-8b17-7f666004b239" configVersion="e2471bb4bae4c245b8543a6dadd293d300000000">
+		<Metadata name="Catalog.Справочник1" id="8579e6d0-6ef5-4b64-8b17-7f666004b239" configVersion="6bdc2fe5f8cf714cbbefb4d64d4acf2300000000">
 			<Metadata name="Catalog.Справочник1.Command.Команда1" id="7b8f569a-ce13-4061-b8cd-09502fd9c795"/>
 		</Metadata>
 		<Metadata name="Catalog.Справочник1.Command.Команда1.CommandModule" id="7b8f569a-ce13-4061-b8cd-09502fd9c795.2" configVersion="96085c80814c2948af4286fb9b0c07bc00000000"/>

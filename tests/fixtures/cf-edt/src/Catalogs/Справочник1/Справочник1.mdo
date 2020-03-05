@@ -50,6 +50,14 @@
   </forms>
   <commands uuid="7b8f569a-ce13-4061-b8cd-09502fd9c795">
     <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда1</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Command1</value>
+    </synonym>
     <group>NavigationPanelImportant</group>
     <commandParameterType/>
     <representation>Auto</representation>
